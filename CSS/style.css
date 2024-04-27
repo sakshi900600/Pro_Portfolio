@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* ligh mode */
+    --lprimary-color:#1995AD;
+    --lbg-color:#F1F1F2;
+    --lsecondary-color:#A1D6E2 ;
+    --laccent-color:#4CAF50 ; /* call to action button */
+
+    /* dark mode    #962E2A, #E3867D, #CEE6F2   #375E97, #FB6542, #FFBB00   #C4DFE6, #66A5AD   #31473A, #EDF4F2 */
+    --sprimary-color:#2196F3 ;
+    --sbg-color:#121212 ;
+    --ssecondary-color:#FF5252  ;
+    --saccent-color:#FFD740  ;
+
+}
+
+
+/* navbar ---------------------- */
+#header{
+    background-color: var(--lprimary-color);
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo img{
+    height: 20%;
+    width: 50%;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    margin: 12px;
+    padding: 15px 12px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.toggle-mode{
+    width: 30px;
+    cursor: pointer;
+}
+
+
+/* ----------  HOme ------------------- */
+
+
+/* #home::before{
+    content: '';
+    background: url("https://cdni.iconscout.com/illustration/free/thumb/free-women-web-developer-with-laptop-2040890-1721886.png") no-repeat center center/cover;
+    position: absolute ;
+    height: 90%;
+    width: 50%;
+    opacity: 1px;
+    right: 0;
+} */
+
+.h-image{
+    position: absolute ;
+    height: 70%;
+    width: 50%;
+    opacity: 1px;
+    right: 0;
+}
+
+#home{
+    height: 90vh;
+    background-color: var(--lbg-color);
+    margin-bottom: 23px;
+    position: relative;
+}
+
+.hcnt{
+    position: absolute;
+    margin-top: 15% ;
+    margin-left: 5%;
+}
+
+.content span{
+    color: var(--lprimary-color);
+}
+
+.content h1{
+    font-size: 2.5rem;
+    color: black;
+}
+.content h2{
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.content p{
+    font-size: 1rem;
+}
+
+.pbtn{
+    background-color: var(--lprimary-color);
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    margin-right: 9px;
+}
+
+.pbtn:hover {
+    background-color: var(--lsecondary-color);
+    color: black;
+
+}
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+  }
+
+
+/*  --------------------- responsive ---------- */
+
+@media (max-width:1200px){  
+   
+}
+
+@media (max-width: 768px) {
+    .nav-item {
+      display: none;
+    }
+  
+    .menu-toggle {
+      display: block;
+    }
+
+    #home{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+@media (max-width: 500px){
+    #home::before{
+        height: 30%;
+        width: 40%;
+        right: 0;
+    }
+    #home{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+/*  -------------- Skills ------------------- */
+
+#skills{
+    /* height: 50vh; */
+    background-color: var(--lbg-color);
+}
+
+.skill{
+    /* border: 2px solid black; */
+    scrollbar-width: none;
+    width: 80vw;
+    margin: auto;
+    padding: 13px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+}
+
+.skill-item{
+    border: 2px solid var(--lsecondary-color);
+    height: 200px;
+    width: 200px;
+    margin: 23px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.skill-item img{
+    height: 135px;
+    width: 194px;
+   position: absolute;
+   background-size: cover;
+   background-position: center;
+   margin: 12px auto;
+   
+
+}
