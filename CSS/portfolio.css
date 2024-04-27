@@ -152,6 +152,7 @@ header {
 
 .home {
     background-color: var(--lbg-color);
+    margin: auto;
 }
 
 .home-container {
