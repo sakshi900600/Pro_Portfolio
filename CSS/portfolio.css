@@ -251,7 +251,7 @@ header {
 
 /*  ---------  Home responsiveness -------- */
 
-@media (max-width: 750px) {
+@media (max-width: 768px) {
     .home-container {
         padding: 6rem 1rem 5rem 1rem;
         text-align: center;
@@ -267,7 +267,7 @@ header {
     }
 }
 
-@media (min-width: 751px) and (max-width: 927px) {
+@media (min-width: 768px) and (max-width: 927px) {
     .action-btns a {
         font-size: .7rem;
         padding: .9rem 1.5rem;
@@ -289,9 +289,10 @@ header {
     }
 }
 
-@media (min-width: 360px) and (max-width:410px) {
+@media (min-width: 320px) and (max-width:410px) {
     .action-btns a {
-        padding: .6rem .43rem;
+        padding: .4rem .34rem;
+        font-size: 1rem;
     }
 
     .home .content {
@@ -480,7 +481,7 @@ header {
 }
 
 /* <!--  ---------   Skill Responsiveness  -------------- --> */
-@media (min-width: 420px) {
+@media (min-width: 320px) {
     .skills-container {
         margin: 6px;
     }
@@ -558,7 +559,7 @@ header {
 
 /*  ---------  About responsiveness -------- */
 
-@media (max-width: 750px) {
+@media (max-width: 768px) {
 
     .about-container {
         padding: 6rem 1rem 5rem 1rem;
@@ -642,7 +643,7 @@ header {
     color: var(--lfont-color);
 }
 
-@media (min-width: 420px) and (max-width:700px) {
+@media (min-width: 320px) and (max-width:768px) {
     .contact-form {
         padding: 1rem;
     }

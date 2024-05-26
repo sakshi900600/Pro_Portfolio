@@ -22,4 +22,4 @@ hamburger.onclick = function () {
 }
 
 
-document.addEventListener('contextmenu', event => event.preventDefault());
+// document.addEventListener('contextmenu', event => event.preventDefault());
