@@ -291,7 +291,7 @@ header {
 
 @media (min-width: 320px) and (max-width:410px) {
     .action-btns a {
-        padding: .8rem .34rem;
+        padding: .9rem .35rem;
         font-size: 1.2rem;
     }
 
