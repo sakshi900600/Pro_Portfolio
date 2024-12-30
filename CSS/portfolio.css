@@ -341,6 +341,7 @@ header {
     width: 250px;
     border-radius: 9px;
     margin: 4px;
+    outline: 2px solid #FF5252;
 }
 
 #projects .card:hover {
