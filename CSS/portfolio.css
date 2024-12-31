@@ -298,6 +298,10 @@ header {
     .home .content {
         margin: 1.5rem;
     }
+    .action-btns{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
